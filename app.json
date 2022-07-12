@@ -3,7 +3,7 @@
     "logo": "https://te.legra.ph/file/0a633ea610081fe062b1b.jpg",
     "description": "An Advanced Premium Music Bot For Telegram Groups VC.",
     "keywords": ["music", "voice chat", "telegram"],
-    "repository": "https://github.com/IamBikashhalder/adityabikashplayer",
+    "repository": "https://github.com/Xshsjhsj/ArnavsinghPlayer",
     "stack": "container",
     "env": {
         "API_ID": {
