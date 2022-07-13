@@ -4,7 +4,7 @@ asyncio
 dnspython
 ffmpeg-python
 future
-git+https://github.com/IamBikashHalder/downloader@master
+git+https://github.com/Xshsjhsj/ArnavsinghPlayer/downloader@master
 motor
 pillow
 psutil
@@ -14,5 +14,5 @@ python-dotenv
 requests
 tgcrypto
 wget
-git+https://github.com/IambikashHalder/Bgt_search@master
-git+https://github.com/IambikashHalder/Bgt-search-python@main
+git+https://github.com/Xshsjhsj/ArnavsinghPlayer/Arnav_search@master
+git+https://github.com/IambikashHalder/Arnav-search-python@main
