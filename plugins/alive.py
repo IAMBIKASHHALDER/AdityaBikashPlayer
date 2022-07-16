@@ -12,21 +12,21 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
+        photo=f"https://te.legra.ph/file/4c219126032d7b0f31b22.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
-🐯 Hҽʅʅσ, I αɱ Sυρҽɾϝαʂƚ Hιɠԋ Qυαʅιƚყ 
-Nσ Lαɠ Vƈ Mυʂιƈ Pʅαყҽɾ Bσƚ.
+🐯 Hҽʅʅσ Wҽʅƈσɱҽ Tσ Aɾɳαʋ Mυʂιƈ Bσƚ, I αɱ Sυρҽɾϝαʂƚ Hιɠԋ Qυαʅιƚყ 
+Nσ Lαɠ Vƈ Aɾɳαʋ Mυʂιƈ Pʅαყҽɾ Bσƚ.
 
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ Cɾҽαƚσɾ 🛠️  [Bιƙαʂԋ Hαʅԃҽɾ](https://t.me/BikashHalder)
-┣★ Cɾҽαƚσɾ 🛠️ [Aԃιƚყα Hαʅԃҽɾ](https://t.me/AdityaHalder)
-┣★ Uρԃαƚҽʂ 📢 [Bɠƚ Bɾαɳԃ](https://t.me/BikashGedgetsTech)
-┣★ Sυρρσɾƚ ☣️ [Bɠƚ Cԋαƚ](https://t.me/Bgt_chat)
-┣★ Cԋαƚƚιɳɠ ©️ [Bɠƚ Cԋαƚ](https://t.me/adityadiscus)
+┣★ Cɾҽαƚσɾ 🛠️  [Aɾɳαʋ Sιɳɠԋ](https://t.me/Op_cutearnav123)
+┣★ Cɾҽαƚσɾ 🛠️ [AႦσυƚ Aɾɳαʋ](https://t.me/OP_ARNAV_SINGH)
+┣★ Uρԃαƚҽʂ 📢 [Aɾɳαʋ Nҽƚɯσɾƙ](https://t.me/KING_COBRA_NETWORK)
+┣★ Cԋαɳɳҽʅ ☣️ [YσυƚυႦҽ](https://youtube.com/channel/UCUw4ZmMC_H2SYdcka9teJ7A)
+┣★ Cԋαƚƚιɳɠ ©️ [Aɾɳαʋ Cԋαƚ](https://t.me/Final_Countdown_Survivors)
 ┗━━━━━━━━━━━━━━━━━┛
 
 🗽 Jυʂƚ Aԃԃ Mҽ » Tσ Yσυɾ Gɾσυρ Aɳԃ
-Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
+Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Aɾɳαʋ Mυʂιƈ.
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
@@ -40,32 +40,32 @@ Eɳʝσყ Bҽʂƚ Qυαʅιƚყ ❥︎ Mυʂιƈ.
     )
     
     
-@Client.on_message(commandpro(["/start", f"/start@{BOT_USERNAME}", "/alive", "/BGT",  ".Kaal"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", f"/start@{BOT_USERNAME}", "/alive", "/Arnav",  ".Arv"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
+        photo=f"https://te.legra.ph/file/4c219126032d7b0f31b22.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⛪ Jσιɳ Oυɾ Cԋαƚ Gɾσυρ  🗽", url=f"https://t.me/BGT_CHAT")
+                        "⛪ Wҽʅƈσɱҽ 🌷 Tσ Aɾɳαʋ Mυʂιƈ Bσƚ Jσιɳ Oυɾ Cԋαƚ Gɾσυρ  🗽", url=f"https://t.me/link_copied")
                 ]
             ]
         ),
     )
 
 
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "Bikash", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "Arnav", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/b559b922fe86fc0ab2285.png",
+        photo=f"https://te.legra.ph/file/4c219126032d7b0f31b22.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⛪ Cʅιƈƙ Mҽ Tσ Gҽƚ Rҽρσ 🗽", url=f"https://t.me/BikashHalder")
+                        "⛪ Cʅιƈƙ Mҽ Tσ Gҽƚ Rҽρσ 🗽", url=f"https://t.me/Op_cutearnav123")
                 ]
             ]
         ),

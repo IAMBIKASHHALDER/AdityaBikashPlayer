@@ -1,4 +1,4 @@
-# Bikash Halder // @BikashHalder @AdityaHalder
+# Arnav Singh // @Op_cutearnav123 @OP_ARNAV_SINGH
 
 import os
 import aiofiles
@@ -103,7 +103,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Bikash Halder (@BikashHalder)",
+        f"Powered By: Arnav Singh (@OP_ARNAV_SINGH)",
         (255, 255, 255),
         font=font,
     )
@@ -131,7 +131,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "꧁🕊 Ɩ'M⚡Bikคsђ 🕊꧂"
+        user.first_name = "꧁🕊 Ɩ'M⚡Arnav 🕊꧂"
     usar = user
     wew = usar.id
     try:
@@ -155,12 +155,12 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🐬 Pʅҽαʂҽ ❤️ Mαɳυαʅʅყ 🌺 Aԃԃ 👉 Aʂʂιʂƚαɳƚ 😔 σ𝐫 🎸 Cσɳƚαƈƚ 👑 ƚσ ː [꧁🕊 Ɩ'M⚡Bikคsђ 🕊꧂](https://t.me/BikashHalder) 🌺**")
+                        f"**🐬 Pʅҽαʂҽ ❤️ Mαɳυαʅʅყ 🌺 Aԃԃ 👉 Aʂʂιʂƚαɳƚ 😔 σ𝐫 🎸 Cσɳƚαƈƚ 👑 ƚσ ː [꧁🕊 Ɩ'M⚡Arnav 🕊꧂](https://t.me/Op_cutearnav123) 🌺**")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🐬 Pʅҽαʂҽ ❤️ Mαɳυαʅʅყ 🌺 Aԃԃ 👉 Aʂʂιʂƚαɳƚ 😔 σ𝐫 🎸 Cσɳƚαƈƚ 👑 ƚσ ː [꧁🕊 Ɩ'M⚡Bikคsђ 🕊꧂](https://t.me/BikashHalder) 🌺**")
+            f"**🐬 Pʅҽαʂҽ ❤️ Mαɳυαʅʅყ 🌺 Aԃԃ 👉 Aʂʂιʂƚαɳƚ 😔 σ𝐫 🎸 Cσɳƚαƈƚ 👑 ƚσ ː [꧁🕊 Ɩ'M⚡Arnavq 🕊꧂](https://t.me/Op_cutearnav123) 🌺**")
         return
     
     audio = (
@@ -178,7 +178,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/b559b922fe86fc0ab2285.png"
+        thumb_name = "https://te.legra.ph/file/fdbcd6d7c23fc930413b2.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -187,8 +187,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jσιɳ Oυɾ Cԋαƚ Gɾσυρ 💞",
-                            url=f"https://t.me/Bgt_Chat")
+                            text="💥 Jσιɳ Oυɾ Arnav Cԋαƚ Gɾσυρ 💞",
+                            url=f"https://t.me/link_copied")
 
                 ]
             ]
@@ -226,8 +226,8 @@ async def play(_, message: Message):
             [
                 [
                         InlineKeyboardButton(
-                            text="💥 Jσιɳ Oυɾ Cԋαƚ Gɾσυρ 💞",
-                            url=f"https://t.me/Bgt_Chat")
+                            text="💥 Jσιɳ Oυɾ Arnav Cԋαƚ Gɾσυρ 💞",
+                            url=f"https://t.me/link_copied")
 
                 ]
             ]
@@ -235,7 +235,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/b559b922fe86fc0ab2285.png"
+            thumb_name = "https://te.legra.ph/file/fdbcd6d7c23fc930413b2.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -243,7 +243,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jσιɳ Oυɾ Cԋαƚ Gɾσυρ 💞",
-                            url=f"https://t.me/Bgt_Chat")
+                            url=f"https://t.me/link_copied")
 
                 ]
             ]
@@ -297,7 +297,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="💥 Jσιɳ συɾ Cԋαƚ Gɾσυρ 🌺",
-                            url=f"https://t.me/Bgt_Chat")
+                            url=f"https://t.me/link_copied")
 
                 ]
             ]

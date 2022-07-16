@@ -1,4 +1,4 @@
-# Copyright (C) 2022 By AdityaBikashPlayer
+# Copyright (C) 2022 By ArnavSinghPlayer
 
 import os
 from pyrogram import Client, filters
